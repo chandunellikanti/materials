@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+#home{
+    height: 95vh;
+    /* border: 1px solid red; */
+    background-image: url(https://wallpapercave.com/wp/wp7043567.jpg);
+    /* background-image:url(./image.png); */
+
+    background-size: cover;
+    overflow-x: hidden;
+}
+nav{
+    height: 13vh;
+    /* border: 1px solid red; */
+    display: flex;
+    /* background-color: rgba(6, 4, 4, 0.33); */
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2) ;
+}
+#aside_one{
+    /* border: 1px solid red; */
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 30px;
+    gap: 20px;
+}
+#aside_one a{
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    /* font-family: "Quicksand", sans-serif; */
+}
+#aside_two{
+    flex-basis: 56%;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 60%;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 450;
+    /* font-family: "Quicksand", sans-serif; */
+}
+#aside_three{
+    flex-basis: 22%;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    justify-content: flex-end;
+    gap: 30px;
+    color: white;
+}
+#aside_three svg{
+    fill: white;
+    height: 25px;
+    width: 25px;
+}
+#aside_three svg:hover{
+    fill: #02661e;
+}
+#cart_value{
+    font-size: 10px;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    height: 22px;
+    width: 22px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    /* padding: 0px 5px; */
+    /* font-family: "Quicksand", sans-serif; */
+}
+#cart_value:hover{
+    color:white;
+    background-color: #02661e;
+    border: #02661e 1px solid;
+}
+#home article{
+    background-color: rgba(6, 4, 4, 0.33);
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 155px;
+    align-items: flex-start;
+    gap: 48px;
+}
+#welcome{
+    color: rgb(238, 230, 230);
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+#btn{
+    background-color: rgba(6, 4, 4, 0.33);
+    /* display: flex; */
+    align-items: center;
+    flex-direction:column;
+
+}
+#best{
+    color: white;
+    font-size: 75px;
+    font-weight: 450;
+}
+#v{
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+    width: 100%;
+    /* height: 50%; */
+    /* object-fit: cover; */
+    z-index: -1;
+    /* opacity: 30px; */
+}
+#shop_btn1{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: -160px;
+    top: -850px;
+
+}
+#shop_btn1:hover{
+    color: #02661e;
+    background-color: white;
+}
+#shop_btn2{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: 65px;
+    top: -640px;
+
+}
+#shop_btn2:hover{
+    color: #02661e;
+    background-color: white;
+}
+#shop_btn3{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: 290px;
+    top: -430px;
+
+}
+#shop_btn3:hover{
+    color: #02661e;
+    background-color: white;
+}
+#shop_btn4{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: -656px;
+    top: -850px;
+
+}
+#shop_btn4:hover{
+    color: #02661e;
+    background-color: white;
+}
+#shop_btn5{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: -432px;
+    top: -640px;
+
+}
+#shop_btn5:hover{
+    color: #02661e;
+    background-color: white;
+}
+#shop_btn6{
+    color: white;
+    height: 90px;
+    width: 220px;
+    border: 3px solid white;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: transparent;
+    background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+    background-size: 250px;
+    position: relative;
+    right: -206px;
+    top: -430px;
+
+}
+#shop_btn6:hover{
+    color: #02661e;
+    background-color: white;
+}
+
+
+
+@media screen and (max-width:480px) {
+    *{
+        margin: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden; 
+    
+    }
+    #home{
+        height: 100vh;
+        background-image:url(https://wallpapercave.com/wp/wp7043567.jpg);
+    
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    nav{
+        height: 12vh;
+        /* border: 1px solid red; */
+        display: flex;
+        /* background-color: rgba(6, 4, 4, 0.33); */
+        border-bottom: 0.5px solid rgba(255, 255, 255, 0.2) ;
+    }
+    #aside_one{
+        /* border: 1px solid red; */
+        flex-basis: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px 0.2px;
+        gap: 0px;
+    }
+    #aside_one a{
+        font-size:12px;
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(14, 13, 13);
+        /* font-family: "Quicksand", sans-serif; */
+    }
+    #aside_two{
+        flex-basis: 40%;
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 60%;
+        display: grid;
+        place-items: center;
+        color: white;
+        font-size: 20px;
+        font-weight: 450;
+        /* font-family: "Quicksand", sans-serif; */
+    }
+    #aside_three{
+        flex-basis: 30%;
+        /* border: 1px solid red; */
+        height: 100%;
+        width: 50%;
+        display: flex;
+        /* align-items: center; */
+        /* padding: 0px 25px; */
+        /* justify-content: flex-end; */
+        gap: 10px;
+        color: white;
+
+    }
+    #con{
+        text-decoration: none;
+        color: rgb(13, 12, 12);
+        
+        width: 2500px;
+        font-size:12px;
+        font-weight: 600;
+
+position: relative;
+left: px;
+
+    }
+    #aside_three svg{
+        fill: white;
+        height: 10px;
+        width: 10px;
+    }
+    #aside_three svg:hover{
+        fill: #02661e;
+    }
+    #cart_value{
+        font-size: 10px;
+        font-weight: 400;
+        /* background-color: white; */
+        color: black;
+        height: 22px;
+        width: 22px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: grid;
+        place-items: center;
+        position: absolute;
+        right: 15px;
+        top: 25px;
+        /* padding: 0px 5px; */
+        /* font-family: "Quicksand", sans-serif; */
+    }
+    #cart_value:hover{
+        color:white;
+        background-color: #02661e;
+        border: #02661e 1px solid;
+    }
+    #home article{
+        /* background-color: rgba(6, 4, 4, 0.33); */
+        height: 46vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 100px 150px 0px ;
+        /* align-items: flex-start; */
+        /* gap: 48px; */
+    }
+    #welcome{
+        color: rgb(114, 45, 45);
+        font-size: 15px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        left: -120px;
+        top: -20px;
+        width: 300px;
+        height: 100px;
+
+                /* overflow: hidden; */
+        
+    }
+    #colo{
+        /* background-color: rgba(6, 4, 4, 0.33); */
+        
+    }
+    #best{
+        color: white;
+        font-size: 25px;
+        font-weight: 450px;
+        position: relative;
+        left: -90px;
+        top: -40px;
+        /* padding: 10px 10px 20px; */
+        height: 200px;
+        /* padding: 0px; */
+
+        width: 300px;
+        /* overflow: hidden; */
+    }
+    #btn>a{
+        /* background-color: rgba(6, 4, 4, 0.33); */
+
+        padding: 10px;
+        /* justify-content: space-around; */
+        /* overflow: hidden; */
+        text-decoration:none;
+    }
+    marquee{
+        height: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+    #shop_btn{
+        /* background-color: rgba(6, 4, 4, 0.33); */
+
+        color: rgb(195, 16, 16);
+        height:60px;
+        width: 130px;
+        border: 1px solid white;
+        font-size: 15px;
+        font-weight: 700;
+        background-color: transparent;
+        position: relative;
+        left: 45px;
+        top: -9px;
+         display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+        box-shadow: 10px 12px 10px rgb(18, 14, 14) ;
+        
+
+        padding: 10px 10px 20px 10px;
+
+        /* width: 300px; */
+        overflow: hidden;
+        text-decoration:none;
+        background-image: url(https://wallpaperaccess.com/full/1638902.jpg);
+        background-size: 200px;
+        
+        
+    }
+    #shop_btn:hover{
+        color: #097127;
+        background-color: white;
+    }
+    #cart_layer{
+        height: 100vh; 
+        width: 0%;
+        /* border: 1px solid red; */
+        background-color:#ffffff;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        transition: 500ms;
+        overflow-x: hidden;
+    }
+    #cart_layer_heading{
+        height: 7%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        border-bottom:#64646741 solid 0.5px; 
+    }
+    #cart_layer_heading h1{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    #cart_layer_heading i{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #cart_items{
+        height: 83%;
+        border-bottom:#64646741 solid 0.5px; 
+    }
+    .added_to_cart{
+        height: 120px;
+        width: 100%;
+        background-color:white;
+        display: flex;
+        gap: 30px;
+        /* justify-content: space-between; */
+        align-items: center;
+        padding: 0px 50px 0px 10px;
+        overflow: hidden;
+        margin: 0px 20px;
+        border-bottom: 1px solid #64646732;
+    }
+    .added_to_cart img{
+        height: 100px;
+        width: 80px;
+        /* border: 1px solid black; */
+    }
+    .added_to_cart aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 30px;
+    }
+    .added_to_cart h1{
+        font-size: 18px;
+        color:rgba(29, 28, 28, 0.582);
+    }
+    #checkout{
+        height: 10%;
+        display: grid;
+        place-items: center;
+    
+    }
+    #checkout button{
+        color:#02661e;
+        height: 60%;
+        width: 94%;
+        border: 3px solid #02661e;
+        font-size: 14px;
+        font-weight: 600;
+        background-color: white;
+        border-radius: 3px;
+        transition-duration: 700ms;
+    }
+    #checkout button:hover{
+        color: white;
+        background-color: #02661e;
+    }
+    
+}
